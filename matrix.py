@@ -83,19 +83,3 @@ class Matrix:
     def setValues(self, row, col):
         self.rows = row
         self.cols = col
-
-
-A = Matrix(2, 2)
-B = Matrix(3, 3)
-print('A:')
-A.display()
-print('\nB:')
-B.display()
-print('\nA*b:')
-A.mul(B)
-print('\ntranspose(A)')
-A.transpose().display()
-print('\nA+B:')
-A.add(B)
-print('\nA-B:')
-A.sub(B)
